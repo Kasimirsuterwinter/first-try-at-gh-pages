@@ -1,8 +1,7 @@
 header {
     display: flex;
-    height: 100vh;
     color: #000000;
 }
 h1 {
-    font-size: 20vh;
+    font-size: 10vw;
 }
