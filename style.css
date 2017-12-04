@@ -1,10 +1,62 @@
+
+
+html {
+  background-color: black;
+}
+
+
 header {
     display: flex;
     color: #000000;
 }
 h1 {
     font-size: 10vw;
+    color: white;
+}
+h3 {
+  font-size: 2vw;
+  color: white;
 }
 p {
-    font-size: 24px;    
+    font-size: 24px;
+    color: white;
+}
+
+.logo {
+  width: 60px;
+  margin-bottom: 20px; }
+
+
+
+
+@supports ((display: -ms-grid) or (display: grid)) {
+  li {
+    width: auto;
+    margin: 0; }
+  @media (min-width: 680px) {
+    /* autoprefixer: off */
+    main {
+      /* autoprefixer: off */
+      display: grid;
+      grid-template-columns: 16vw 50vw 10vw);
+
+grid-gap: 2vw; }
+.logo {
+  grid-row: 1 / 2;
+  align-self: start;
+}
+  .logo img {
+width: 16vw;
+}
+front-cover {
+  grid-row: auto;
+  grid-column: 2 / 5;
+}
+half-width {
+  grid-row: auto;
+}
+header {
+  grid-row: end;
+  grid-column: 1 / 4;
+  align-self: end;
 }
