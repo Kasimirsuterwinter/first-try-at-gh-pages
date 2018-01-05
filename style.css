@@ -26,6 +26,17 @@ p {
     color: white;
 }
 
+nav {
+  float: right;
+}
+
+ul {
+  padding-top: 30px;
+  margin-righ: 1vw;
+  margin-left: 1vw;
+  color: #F1ECE9 ;
+}
+
 .logo {
   width: 50px;
   margin-bottom: 20px; }
@@ -88,6 +99,10 @@ width: 16vw;
 
 cover-content {
   align-content: flex-end;
+}
+
+a.active {
+  color: #F46032
 }
 
 /*
