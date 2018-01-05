@@ -73,7 +73,7 @@ width: 16vw;
 .menu {
   grid-row: 1 / 2;
   grid-column: 1 / -1;
-  position: sticky;
+  position: fixed;
   top: 23px;
 }
 .front-cover {
