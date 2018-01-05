@@ -6,11 +6,12 @@
   </head>
   <body>
     <main>
-       <div class="menu">
-         <img class="logo" src="K-Logo-Solid-white.png" alt="">
+       <header>
+         <div class="menu">
+          <img class="logo" src="K-Logo-Solid-white.png" alt="">
           <nav>
             <ul>
-              {% assign navigation_pages = site.html_pages | sort: 'navigation_weight'%}
+              {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
               {% for p in naviation_pages %}
                 {% if p.navigation_weight %}
                   <li>
@@ -22,11 +23,12 @@
               {% endfor %}
             </ul>
           </nav>
-       </div>
+        </div>
+       </header>
          {{ content }}
-       <div class="footer">
+       <footer>
          <p>  </p>
-       </div>
+       </footer>
      </main>
   </body>
 </html>
